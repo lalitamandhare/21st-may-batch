@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cross Browser Suite]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="ParameterizationCrossBrowserPractice.AllBrowsers">
+        <methods>
+          <include name="VerifyCurrentUrl"/>
+        </methods>
+      </class> <!-- ParameterizationCrossBrowserPractice.AllBrowsers -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Cross Browser Suite] -->
